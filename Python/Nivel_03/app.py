@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from repository.databse import db
+from db_models.payment import Payment
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
