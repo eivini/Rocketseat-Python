@@ -1,0 +1,17 @@
+services:
+   db:
+     image: mysql:latest    # É o que diz o que quero subir
+     restart: always        # Quando ele tem q reiniciar
+     environment:
+       MYSQL_USER: 'admin'
+       MYSQL_PASSWORD: 'admin123'
+       MYSQL_DATABASE: 'flask-crud'
+       MYSQL_ROOT_PASSWORD: 'admin123'
+     ports:
+       - "3306:3306"
+     expose:
+       # Opens port 3306 on the container
+       - '3306'
+     volumes:
+       - /Users/gabrielcasemiro/Desktop/Rocketseat/mysql:/var/lib/mysql     # Onde fica armazenado de forma persistente
+       # Essa url tem que ser substituída pelo usuário atual
