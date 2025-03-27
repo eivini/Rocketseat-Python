@@ -1,2 +1,5 @@
-# Rocketseat-Python
-Rocketseat | Python
+##   Rocketseat-Python
+    Cursos da Rocketseat | Python:
+        • Formações,
+        • Projetos,
+        • NLW
