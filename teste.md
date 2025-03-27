@@ -228,6 +228,30 @@ Esse projeto é usado pelas seguintes empresas:
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+Aqui estão os passos básicos para fazer isso:
+
+1 Inclua a biblioteca marked.js em sua página HTML. Você pode fazer isso adicionando o seguinte código no <head> do seu documento HTML:
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+1 Crie um elemento HTML onde você deseja exibir o conteúdo Markdown. Por exemplo:
+<div id="markdown-container"></div>
+1 Use JavaScript para carregar o conteúdo do arquivo Markdown, processá-lo com marked.js e exibi-lo na página. Aqui está um exemplo de código JavaScript:
+
+<script>
+  // Conteúdo do arquivo Markdown (pode ser carregado de um arquivo ou de outra fonte)
+  var markdownContent = 
+    # Título
+    Este é um **exemplo** de arquivo Markdown.
+    
+    - Lista de itens
+    - Outro item
+
+  // Seleciona o elemento onde você deseja exibir o conteúdo Markdown
+  var markdownContainer = document.getElementById('markdown-container');
+
+  // Converte o conteúdo Markdown em HTML e insere-o no elemento
+  markdownContainer.innerHTML = marked(markdownContent);
+</script>
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
