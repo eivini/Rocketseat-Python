@@ -2,6 +2,10 @@ https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+https://www.alura.com.br/artigos/como-criar-um-readme-para-seu-perfil-github?srsltid=AfmBOorouG21FeErIsXhGqrVX-ICnTNUMy56F-F8J2dIDUJYp1DOSGOa
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 <div align="center">
     <h1>
         Teste de como vai ficar estruturado
