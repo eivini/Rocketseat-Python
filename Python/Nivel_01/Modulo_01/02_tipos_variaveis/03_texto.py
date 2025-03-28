@@ -1,5 +1,5 @@
 ### Declaração
-# É possivel fazer declarações com aspas simples e duplas, mas por padrão o ideal é sempre usar aspas duplas ""
+# É possivel fazer declarações com aspas simples e duplas, mas por padrão o ideal é sempre usar aspas duplas "" {
 nome_completo = "Marcus Vinícius"
 
 nome_completo_aspas = """"
@@ -11,8 +11,9 @@ Vinícius"
 
 nome = "Marcus"
 sobrenome = "Vinícius"
+# }
 
-### Formatações
+### Formatações {
 print("Nome completo (1a forma):", nome_completo) # concatenação com o uso de espaço automático
 print("Nome completo (2a forma):" + nome_completo) # concatenação sem o uso de espaço automático
 print("Nome completo (3a forma):" + "Marcus " + "Vinícius") # concatenação com o uso de + e com espaço no final da primeira string
@@ -27,8 +28,9 @@ print("Nome completo (10a forma): {} {}".format(nome, sobrenome)) # essa concate
 # "%s %s" % () é mais segura para tratar os dados
 # f"{} {}" é visivelmente mais agradável
 # Valido resaltar: é de extrema importancia usar nomes em variáveis que façam sentido
+# }
 
-## Metodos de transformação em upper e lower, caso já tenha uma variável do tipo String
+## Metodos de transformação em upper e lower, caso já tenha uma variável do tipo String {
 # Lembrando que as variáveis são imutáveis, apesar do metodo estar mostrando os dados em upper ou lower, o valor dela não é alterado
 # .upper
 print(".upper",nome.upper())
@@ -54,21 +56,26 @@ print("Resultado do tratamento para remover o ( :", telefone.replace("(", ""))
 # Caso queira fazer mais de uma substituição é necessário fazer outras concatenações
 print("Resultado do tratamento para remover tudo que não seja número:", telefone.replace("(", "").replace(")", "").replace(" ", "").replace("-", ""))
 # Observação: caso tente remover alguma letra/número/caractere que não existe na string, nada vai acontecer
+# }
 
-## Funções join e split, utilizado para conversão de string para listas
+## Funções join e split, utilizado para conversão de string para listas {
 print("Utilização do join:", "-".join(nome))
 print("Utilização do join:", "-".join(nome_completo))
 print("Utilização do split:", nome_completo.split(" ")) # Caso seja um espaço, não é necessário declarar o espaço (""). Pois o espaço é o parametro default
-## Metodos de tratamento de variável strip e (tratamento de textos que tenham ruídos)
+# }
+
+## Metodos de tratamento de variável strip e (tratamento de textos que tenham ruídos) {
 nome_strip = "xMarcus Viníciusx"
 print("Utilização do .strip",nome_strip.strip("x")) # ele vai remover a letra/caractere que estiver no início e final
 print("Utilização do .rstrip",nome_strip.rstrip("x")) # ele vai remover a letra/caractere do lado direito
+# }
 
-## Comparadores in, not in, startswith
+## Comparadores in, not in, startswith {
 print("Comparação com .startswith: se o nome_completo começa com 'Ma':", nome_completo.startswith("Ma")) # startswith vai sempre te retornar True/False (boolean)
 print("Comparação com .startswith: se o nome_completo começa com 'Vi':", nome_completo.startswith("Vi"))
 print("Uso de in: em 'us' para o nome_completo:", "us" in nome_completo)
 print("Uso de not in: em 'abc' para o nome_completo:", "abc" not in nome_completo)
+# }
 
 ####
 # Não é possível alterar o valor de uma variável

@@ -1,5 +1,5 @@
 # Tupla é uma coleção ordenada e imutável de elementos
-# Criando uma tupla de exemplo
+# Criando uma tupla de exemplo {
 minha_tupla = (1, 2, 2, 3, 4)
 
 print("Minha tupla:", minha_tupla)
@@ -7,6 +7,7 @@ print("Minha tupla:", minha_tupla)
 print("minha_tupla[0]:", minha_tupla[0])
 print("minha_tupla[2]:", minha_tupla[2])
 print("minha_tupla[2]:", minha_tupla[-1]) # utilizando o [-1] ele vai te entregar o último elemento
+# }
 
 ####
 # Observações sobre a tupla:
@@ -19,10 +20,12 @@ print("minha_tupla[2]:", minha_tupla[-1]) # utilizando o [-1] ele vai te entrega
 # TypeError: 'tuple' object does not support item assignment
 ####
 
-# Método count
+# Método count {
 contagem = minha_tupla.count(2)
 print("Quantidade de vezes que o elemento 2 aparece:", contagem)
+# }
 
-# Método index
+# Método index {
 indice = minha_tupla.index(3)
 print("Indice da primeira ocorrencia do elemento 3:", indice)
+# }

@@ -2,13 +2,14 @@
 # condição verdadeira = True
 # condição falsa = False
 
-# Condicionais
+# Condicionais {
 if True:
     print("Bloco IF vai ser executado")
 else:
     print("Bloco ELSE não será executado")
+# }
 
-# Operadores lógicos: and e or
+# Operadores lógicos: and e or 
 
 # AND
 if True and True:
