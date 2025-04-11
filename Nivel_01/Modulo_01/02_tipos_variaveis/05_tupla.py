@@ -9,16 +9,16 @@ print("minha_tupla[2]:", minha_tupla[2])
 print("minha_tupla[2]:", minha_tupla[-1]) # utilizando o [-1] ele vai te entregar o último elemento
 # }
 
-####
-# Observações sobre a tupla:
-# não é possível alterar o valor dos elementos, na lista isso funcionaria
-# minha_tupla[0] = 5
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/tupla.py", line 11, in <module>
-#     minha_tupla[0] = 5
-#     ~~~~~~~~~~~^^^
-# TypeError: 'tuple' object does not support item assignment
-####
+"""
+Observações sobre a tupla:
+não é possível alterar o valor dos elementos, na lista isso funcionaria
+minha_tupla[0] = 5
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/tupla.py", line 11, in <module>
+    minha_tupla[0] = 5
+    ~~~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+"""
 
 # Método count {
 contagem = minha_tupla.count(2)

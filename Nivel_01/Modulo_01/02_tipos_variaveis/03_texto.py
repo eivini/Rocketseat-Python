@@ -24,13 +24,15 @@ print("Nome completo (7a forma): %s" % nome_completo) # concatenação com subst
 print("Nome completo (8a forma): %s %s" % (nome, sobrenome)) # concatenação com mais de uma variável "%s %s" % é necessário passar os valores em ()
 print(f"Nome completo (9a forma): {nome} {sobrenome}") # concatenação com format, por padrão colocar o f no início e {} nas variáveis
 print("Nome completo (10a forma): {} {}".format(nome, sobrenome)) # essa concatenação funciona na mesma forma que a 9a, mas você ira passar as variáveis depois
-## Observações sobre concatenações duplas ou mais 
-# "%s %s" % () é mais segura para tratar os dados
-# f"{} {}" é visivelmente mais agradável
-# Valido resaltar: é de extrema importancia usar nomes em variáveis que façam sentido
+"""
+Observações sobre concatenações duplas ou mais 
+"%s %s" % () é mais segura para tratar os dados
+f"{} {}" é visivelmente mais agradável
+Valido resaltar: é de extrema importancia usar nomes em variáveis que façam sentido
+"""
 # }
 
-## Metodos de transformação em upper e lower, caso já tenha uma variável do tipo String {
+### Metodos de transformação em upper e lower, caso já tenha uma variável do tipo String {
 # Lembrando que as variáveis são imutáveis, apesar do metodo estar mostrando os dados em upper ou lower, o valor dela não é alterado
 # .upper
 print(".upper",nome.upper())
@@ -77,13 +79,13 @@ print("Uso de in: em 'us' para o nome_completo:", "us" in nome_completo)
 print("Uso de not in: em 'abc' para o nome_completo:", "abc" not in nome_completo)
 # }
 
-####
-# Não é possível alterar o valor de uma variável
-# nome[0] = "Josevaldo"
-# print(nome)
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/texto.py", line 41, in <module>
-#     nome[0] = "Josevaldo"
-#     ~~~~^^^
-# TypeError: 'str' object does not support item assignment
-####
+"""
+Não é possível alterar o valor de uma variável
+nome[0] = "Josevaldo"
+print(nome)
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/texto.py", line 41, in <module>
+    nome[0] = "Josevaldo"
+    ~~~~^^^
+TypeError: 'str' object does not support item assignment
+"""

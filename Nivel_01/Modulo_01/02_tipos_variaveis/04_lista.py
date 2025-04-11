@@ -53,11 +53,11 @@ minha_lista.sort()
 print("Após .sort()", minha_lista)
 # }
 
-####
-# Observação sobre o método .sort()
-# ele não aceita que sua lista tenha vários tipos de elementos, por entando não ira funcionar, pois não tem como ordenar elementos diferentes em ordem crescente
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/lista.py", line 42, in <module>
-#     minha_lista.sort()
-# TypeError: '<' not supported between instances of 'int' and 'str'
-####
+"""
+Observação sobre o método .sort()
+ele não aceita que sua lista tenha vários tipos de elementos, por entando não ira funcionar, pois não tem como ordenar elementos diferentes em ordem crescente
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/lista.py", line 42, in <module>
+    minha_lista.sort()
+TypeError: '<' not supported between instances of 'int' and 'str'
+"""

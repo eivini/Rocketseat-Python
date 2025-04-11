@@ -15,14 +15,15 @@ print("Cidade:", pessoa["cidade"])
 pessoa["sobrenome"] = "Alves" # É possível adicionar qualquer tipo de valor: int/string/boolean/float, também é possível adicionar outros dicionarios
 print("Sobrenome:", pessoa["sobrenome"])
 print("Meu dicionario de exemplo atualizado:", pessoa)
-####
-# Observação: caso tente buscar um valor em uma chave inesistente, vai apresentar o seguinte erro, porém é possível atribuir valores depois de ser instanciado
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/dicionarios.py", line 12, in <module>
-#     print("Sobrenome:", pessoa["sobrenome"])
-#                         ~~~~~~^^^^^^^^^^^^^
-# KeyError: 'sobrenome'
-####
+
+"""
+Observação: caso tente buscar um valor em uma chave inesistente, vai apresentar o seguinte erro, porém é possível atribuir valores depois de ser instanciado
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/dicionarios.py", line 12, in <module>
+    print("Sobrenome:", pessoa["sobrenome"])
+                        ~~~~~~^^^^^^^^^^^^^
+KeyError: 'sobrenome'
+"""
 
 pessoa["idade"] = 28
 print("Idade atualizada:", pessoa["idade"])
@@ -41,15 +42,15 @@ print("Chaves do dicionário:", chaves) # é possível acessar cada chave dela, 
 print("Primeira chave:", chaves[0])
 # }
 
-####
-# Observações sobre o .keys: caso apresente esse erro, é porque o objeto que ele retornou não é uma lista direta
-# print("Chaves do dicionário:", chaves)
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/dicionarios.py", line 38, in <module>
-#     print("Primeira chave:", chaves[0])
-#                              ~~~~~~^^^
-# TypeError: 'dict_keys' object is not subscriptable
-####
+"""
+Observações sobre o .keys: caso apresente esse erro, é porque o objeto que ele retornou não é uma lista direta
+print("Chaves do dicionário:", chaves)
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/tipos_variaveis/dicionarios.py", line 38, in <module>
+    print("Primeira chave:", chaves[0])
+                             ~~~~~~^^^
+TypeError: 'dict_keys' object is not subscriptable
+"""
 
 # .values() {
 valores = list(pessoa.values()) # caso transforme em list, funciona da mesma forma que o .keys()
