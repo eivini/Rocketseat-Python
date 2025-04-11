@@ -12,22 +12,22 @@ else:
 finally:
     print("Operação finalizada")
 
-####
-# Teste de número sem transformar em inteiro
-# Erro de divisão de numero e texto 
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/excecoes.py", line 3, in <module>
-#     resultado = 10 / numero
-#                 ~~~^~~~~~~~
-# TypeError: unsupported operand type(s) for /: 'int' and 'str'
-####
+"""
+Teste de número sem transformar em inteiro
+Erro de divisão de numero e texto 
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/excecoes.py", line 3, in <module>
+    resultado = 10 / numero
+                ~~~^~~~~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+"""
 
-####
-# Teste com uma letra
-# Erro de transformação de a para inteiro
-# Traceback (most recent call last):
-#   File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/excecoes.py", line 2, in <module>
-#     numero = int(input("Digite um número inteiro: ")) # necessário fazer a conversão para inteiro
-#              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-# ValueError: invalid literal for int() with base 10: 'a'
-####
+"""
+Teste com uma letra
+Erro de transformação de a para inteiro
+Traceback (most recent call last):
+  File "/workspaces/Rocketseat/Python/Nível 1/Modulo_1/excecoes.py", line 2, in <module>
+    numero = int(input("Digite um número inteiro: ")) # necessário fazer a conversão para inteiro
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'a'
+"""

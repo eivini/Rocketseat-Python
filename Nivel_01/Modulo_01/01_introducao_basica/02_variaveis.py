@@ -12,9 +12,11 @@ idade = 27 # number
 idade = "27" # string
 # }
 
-# Estilos de declarar variáveis, qual é melhor?
-# Fazer o uso de camelCase para classes e do snake_case para variáveis, funções e metodos
-# Guia de boas práticas para o python https://peps.python.org/pep-0008/
+"""
+Estilos de declarar variáveis, qual é melhor?
+Fazer o uso de camelCase para classes e do snake_case para variáveis, funções e metodos
+Guia de boas práticas para o python https://peps.python.org/pep-0008/
+"""
 
 nome_completo = "Marcus Vinícius"
 nomeCompleto = "Marcus Vinícius"
